@@ -7,7 +7,7 @@
 import tkinter as tk
 import pyshorteners as ps
 import pyperclip as pc
-
+from tkinter import messagebox
 # Initializing the window and the frame
 window = tk.Tk()
 window.title("Simple URL Shortener")
@@ -31,6 +31,7 @@ def reduce():
 def copy_to_clipboard():
     url = output_entry.get()
     pc.copy(url)
+    messagebox.showinfo(title="Text Copy", message="Copied!!")
 
 
 #defining the hover effects for generating button
