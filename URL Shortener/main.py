@@ -1,6 +1,8 @@
 """
  API used: tinyurl API
 
+ Library to install: pyshorteners
+
 """
 
 # Import necessary libraries
