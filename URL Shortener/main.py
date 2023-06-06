@@ -34,6 +34,8 @@ def copy_to_clipboard():
     url = output_entry.get()
     pc.copy(url)
     messagebox.showinfo(title="Text Copy", message="Copied!!")
+    input_entry.delete(0, tk.END) # Clears the input_entry field
+    output_entry.delete(0, tk.END) # Clears the output_entry field
 
 
 #defining the hover effects for generating button
