@@ -6,6 +6,8 @@ Repository containing simple GUI projects made in Python using the Tkinter libra
 
 2. [URL Shortener](https://github.com/Agnik7/Python-GUI-Projects/blob/main/URL%20Shortener/main.py)
 
+3. [Student Data Entry Form](https://github.com/Agnik7/Python-GUI-Projects/blob/main/Student%20Data%20Entry%20Form/main.py)
+
 
 ### License
 [MIT License](https://github.com/Agnik7/Python-GUI-Projects/blob/main/LICENSE)
